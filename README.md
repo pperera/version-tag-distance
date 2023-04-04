@@ -3,9 +3,9 @@ Calculate the next version based on commit distance from last tag
 
 ## Outputs
 
-### `time`
+### `version`
 
-The time we greeted you.
+The new calculated version (without the v prefix if present)
 
 ## Example usage
 
