@@ -1,0 +1,8 @@
+name: 'Version Tag Distance'
+description: 'Calculate a new version(<major>.<minor>[.<revision>]) based on commits since last tag (v<major>.<minor>[.<revision>])'
+outputs:
+  version: # id of output
+    description: 'Calculated new Version'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
